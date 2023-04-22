@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+spec:
+  template:
+    spec:
+      containers:
+      - image: IMAGE_NAME_HERE
+        name: accounts
+=======
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -41,3 +49,4 @@ spec:
                 key: database-user
                 
 status: {}
+>>>>>>> f63d551406e68938ff80b5326d60ce2b7f667b9f
